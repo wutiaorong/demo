@@ -12,5 +12,10 @@ class EventActivity: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_animator)
+        initView()
+    }
+
+    private fun initView() {
+
     }
 }
